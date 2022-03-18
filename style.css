@@ -1,0 +1,94 @@
+*{ font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    margin: 0;
+}
+.logo{
+    font-family: 'Euphoria Script', cursive;
+    font-size: 30px;
+    color: #8E05C2;
+    padding: 10px;
+}
+.home{
+    /* background-color: #EFFFFD; */
+    /* #FFDDEE; */
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.highlight{
+    /* width: 50%; */
+    /* height: 100%; */
+    /* font-family: 'Euphoria Script', cursive; */
+    /* font-family: 'Fredoka', sans-serif; */
+    /* font-family: 'Syne Mono', monospace; */
+    /* font-family: 'Sansita Swashed', cursive;  */
+    font-size: 100px;
+    margin: 10%;
+    margin-bottom: 0;
+    padding: 2%;
+    color: #8E05C2;
+    font-weight: 700;
+}
+.image img{
+    margin-top: 10%;
+    margin-left:5%;
+    width: 650px;
+}
+.about{
+    color:#797A7E;
+    font-size: x-large;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Fredoka', sans-serif;
+    /* line-height: 1.5px; */
+    font-weight: 700;
+}
+.sub{
+    margin-left: 250px;
+    color: #8E05C2;
+    font-style: italic;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #EFFFFD; */
+    background-image: linear-gradient(to bottom right, white, #EFFFFD);
+    display: grid;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+}
+.container1{
+    background-color: aqua;
+    height: 50%;
+}
+.container2{
+    background-color: slateblue;
+    height: 50%;
+}
+header{
+    width: 100%;
+    height: 10%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-rows: 5%;
+}
+nav a{
+    text-decoration: none;
+    /* margin: 0 10%; */
+    padding: 0 20px;
+    outline: 1px solid grey;
+}
