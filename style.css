@@ -145,9 +145,49 @@ body{
 
 .page3{
     height: 100vh;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.mc{
+    /* margin-top: 10%; */
+    /* grid-area: sme; */
+    margin-top: 3%;
+    font-size: x-large;
+    color:#797A7E;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+.concertimg, .eventimg, .songsuggest{
+    width:600px;
+}
+.page4{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+}
+.c1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.songsuggest{
+    width:500px;
+    justify-self: center;
+    margin-left: 10%;
+    /* align-self: start; */
+}
+.c2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.qaimg{
+    width:350px;
+    justify-self: center;
+}
+.qa{
+    margin-top: 13%;
+    justify-self: start;
 }
 
 /* header{
