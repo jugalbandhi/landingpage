@@ -158,8 +158,12 @@ body{
     font-family: 'Fredoka', sans-serif;
     text-align: center;
 }
-.concertimg, .eventimg, .songsuggest{
+.concertimg, .eventimg, .songsuggest,.competitionimg{
     width:600px;
+}
+.mentorimg{
+    width:450px;
+    margin-left: 10%;
 }
 .page4{
     height: 100vh;
