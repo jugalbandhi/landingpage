@@ -149,6 +149,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .mc{
     /* margin-top: 10%; */
     /* grid-area: sme; */
@@ -193,6 +194,30 @@ body{
     margin-top: 13%;
     justify-self: start;
 }
+.page5{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+}
+.distributionimg{
+    width: 500px;
+}
+.p5c1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    z-index: 0;
+}
+.p5c2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.page1, .page2, .page3, .page4,.page5{
+    border-bottom: 2px solid #7e57c2;
+    overflow: hidden;
+    
+}
+
 
 /* header{
     width: 100%;
@@ -206,7 +231,7 @@ body{
 
 nav{
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
     /* grid-template-rows: 5%; */
     
 }
@@ -234,5 +259,21 @@ nav a{
     transition: ease-in-out;
     transition-delay: all 0.3s;
     
+}
+.last{
+    height: 100vh;
+    padding: 3%;
+}
+.ac{
+    margin-top: 0%;
+}
+.last img{
+    width: 75px;
+    margin: 20px;
+}
+.community,.contact{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
 }
 
