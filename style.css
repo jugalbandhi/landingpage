@@ -4,6 +4,14 @@
 }
 body{
     margin: 0;
+    scroll-behavior: smooth;
+    /* overflow: scroll; */
+  
+}
+.parent{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow:auto;
 }
 .logo{
     font-family: 'Euphoria Script', cursive;
@@ -215,6 +223,7 @@ body{
 .page1, .page2, .page3, .page4,.page5{
     border-bottom: 2px solid #7e57c2;
     overflow: hidden;
+    scroll-snap-align: start;
     
 }
 
@@ -231,7 +240,7 @@ body{
 
 nav{
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
     /* grid-template-rows: 5%; */
     
 }
@@ -242,6 +251,7 @@ nav a{
     /* outline: 1px solid grey; */
     place-self: center;
     font-weight: 500;
+    color: #797A7E;
 }
 .logo{
     justify-self: start;
@@ -263,6 +273,8 @@ nav a{
 .last{
     height: 100vh;
     padding: 3%;
+    background-image: linear-gradient(to bottom right, white, #f3d9fd);
+    scroll-snap-align: start;
 }
 .ac{
     margin-top: 0%;
